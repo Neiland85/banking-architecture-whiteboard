@@ -79,3 +79,26 @@ banking-backend-architecture-exercise/
 │                   └── TransferController.java
 │
 └── pom.xml
+
+src/main/java/com/example/bank/
+
+├── domain/
+│   ├── common/
+│   │   └── CorrelationId.java
+│   └── transfer/
+│       ├── Transfer.java
+│       ├── TransferId.java
+│       ├── TransferStatus.java
+│       ├── TransferCreatedEvent.java
+│       └── TransferRepository.java
+│
+├── application/
+│   └── transfer/
+│       └── CreateTransferUseCase.java
+│
+├── infrastructure/
+│   └── persistence/
+│       └── InMemoryTransferRepository.java
+│
+└── api/
+    └── TransferController.java
