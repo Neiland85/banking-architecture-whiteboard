@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    // Pack Java completo (incluye Debugger, Test Runner, Maven)
+    "vscjava.vscode-java-pack",
+    // Extensión Spring Boot para soporte a proyectos Spring
+    "pivotal.vscode-spring-boot",
+    // Herramientas Docker (si usas contenedores)
+    "ms-azuretools.vscode-docker",
+    // GitLens para explorar historial y anotaciones
+    "eamodio.gitlens",
+    // Editor de YAML (útil para Kubernetes o config)
+    "redhat.vscode-yaml",
+    // Prettier para formatear JSON, YAML, etc.
+    "esbenp.prettier-vscode",
+    // Soporte de archivos YAML de Kubernetes
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    // Extensión de GitHub Copilot
+    "github.copilot"
+  ]
+}

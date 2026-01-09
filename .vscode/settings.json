@@ -1,0 +1,27 @@
+{
+  // Usa el formato Google para Java
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.format.settings.profile": "GoogleStyle",
+  // Ejecuta las acciones de guardado para organizar imports y formatear código
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true,
+  // Configuración de espacios y tabulaciones
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  // Habilita Copilot y sus funciones avanzadas
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true
+  },
+  "github.copilot.advanced": {
+    "inlineSuggest.enable": true,
+    "tabCompletion": "on"
+  },
+  // Otros ajustes útiles
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}
