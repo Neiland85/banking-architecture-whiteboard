@@ -1,5 +1,4 @@
 # banking-architecture-whiteboard
-# Banking Backend Architecture Exercise
 
 This repository contains a **technical architecture exercise** designed for senior backend / architecture interviews in regulated environments (banking / fintech).
 
